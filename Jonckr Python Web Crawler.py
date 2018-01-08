@@ -4,9 +4,9 @@ import praw
 import pandas as pd
 reddit = praw.Reddit(client_id='',
                      client_secret='',
+                     username='',
                      password='',
-                     user_agent='Python Web Crawler',
-                     username='')
+                     user_agent='Python Web Crawler')
 
 #######################################################################################################################
 #Reddit Crawler#
